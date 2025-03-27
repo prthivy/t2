@@ -7,8 +7,17 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: #8B0000;
 }
 
-h1 {
+h1, h2 {
     font-family: Verdana, Tahoma, "Trebuchet MS", sans-serif;
+
+}
+div.head-1-container {
+    width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid white;
 }
