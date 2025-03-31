@@ -14,7 +14,23 @@ h1, h2 {
     font-family: Verdana, Tahoma, "Trebuchet MS", sans-serif;
 
 }
-div.head-1-container {
+
+/*add a nav button here*/
+
+nav {
+    list-style: none;
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+
+}
+
+.homenav {
+    display: flex;
+    
+}
+
+div.head1container {
     width: 700px;
     margin: 10px auto;
     padding: 10px;
