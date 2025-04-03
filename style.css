@@ -10,28 +10,34 @@
     background-color: #8B0000;
 }
 
-h1, h2 {
+.head1container {
     font-family: Verdana, Tahoma, "Trebuchet MS", sans-serif;
+    display: flex;
+    flex: 1 auto;
+
+
 
 }
+
+
 
 /*add a nav button here*/
 
-nav {
+.mainnav {
     list-style: none;
     display: flex;
-    border: 2px solid white;
-    justify-content: center;
+    margin: 8px;
+    justify-content: space-evenly;
 
 }
 
-.homenav {
-    display: flex;
-    
+.nav-1, .nav-2, .nav-3, .nav-4 {
+    padding: 4px;
 }
+
 
 div.head1container {
-    width: 700px;
+    width: 625px;
     margin: 10px auto;
     padding: 10px;
     color: aliceblue;
